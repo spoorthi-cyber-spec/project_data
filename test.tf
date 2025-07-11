@@ -1,2 +1,4 @@
-resource "aws_instance" "ec2"{}
+resource "aws_instance" "ec2"{
+instance_type = t2.micro
+}
 resource "aws_eip" "eip"{}
